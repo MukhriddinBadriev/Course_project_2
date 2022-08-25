@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\AirVehiclesDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\AllTerrainBootsDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\BroomDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\CamelDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\CentaurDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\EagleDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\GroundVehiclesDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\MagicCarpetDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\SpeedCamelDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\VehiclesDLL.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\рабочий стол\C++\Netology\ДЗ Netology\Блок №3\CourseProject 2\CourseProject2\x64\Debug\CourseProject2.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

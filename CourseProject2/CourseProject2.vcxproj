@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0499c648-b169-4657-8f4e-62033c8d0fad}</ProjectGuid>
+    <RootNamespace>CourseProject2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BroomDLL;$(SolutionDir)EagleDLL;$(SolutionDir)MagicCarpetDLL;$(SolutionDir)AllTerrainBootsDLL;$(SolutionDir)CentaurDLL;$(SolutionDir)SpeedCamelDLL;$(SolutionDir)GroundVehiclesDLL;$(SolutionDir)CamelDLL;$(SolutionDir)AirVehiclesDLL;$(SolutionDir)VehiclesDLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BroomDLL;$(SolutionDir)EagleDLL;$(SolutionDir)MagicCarpetDLL;$(SolutionDir)AllTerrainBootsDLL;$(SolutionDir)CentaurDLL;$(SolutionDir)SpeedCamelDLL;$(SolutionDir)GroundVehiclesDLL;$(SolutionDir)CamelDLL;$(SolutionDir)AirVehiclesDLL;$(SolutionDir)VehiclesDLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BroomDLL;$(SolutionDir)EagleDLL;$(SolutionDir)MagicCarpetDLL;$(SolutionDir)AllTerrainBootsDLL;$(SolutionDir)CentaurDLL;$(SolutionDir)SpeedCamelDLL;$(SolutionDir)GroundVehiclesDLL;$(SolutionDir)CamelDLL;$(SolutionDir)AirVehiclesDLL;$(SolutionDir)VehiclesDLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BroomDLL;$(SolutionDir)EagleDLL;$(SolutionDir)MagicCarpetDLL;$(SolutionDir)AllTerrainBootsDLL;$(SolutionDir)CentaurDLL;$(SolutionDir)SpeedCamelDLL;$(SolutionDir)GroundVehiclesDLL;$(SolutionDir)CamelDLL;$(SolutionDir)AirVehiclesDLL;$(SolutionDir)VehiclesDLL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CourseProject2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AirVehiclesDLL\AirVehiclesDLL.vcxproj">
+      <Project>{9b26f1bb-fde8-4579-973f-ad15b53fe24e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\AllTerrainBootsDLL\AllTerrainBootsDLL.vcxproj">
+      <Project>{18d09558-360d-401c-ba56-c5871845a680}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\BroomDLL\BroomDLL.vcxproj">
+      <Project>{db8ec489-ee6b-485c-98dd-1478c482513f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CamelDLL\CamelDLL.vcxproj">
+      <Project>{a2ff2628-353d-4795-a47f-8ab52f55a87b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CentaurDLL\CentaurDLL.vcxproj">
+      <Project>{5c84463e-0167-400f-b4ae-13b9ff5ed6fa}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\EagleDLL\EagleDLL.vcxproj">
+      <Project>{a21c83bb-3f10-4e43-ae38-e1e96508a669}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GroundVehiclesDLL\GroundVehiclesDLL.vcxproj">
+      <Project>{9d1cc8ac-9b5d-40e5-bdfd-afa8ebaaeef8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MagicCarpetDLL\MagicCarpetDLL.vcxproj">
+      <Project>{b102ffaf-9da5-4dc0-baf5-00379700cbc7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\SpeedCamelDLL\SpeedCamelDLL.vcxproj">
+      <Project>{a45e4515-e05f-4dc4-8e0c-a47490e8afa2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VehiclesDLL\VehiclesDLL.vcxproj">
+      <Project>{8b61cf29-abe7-42cc-9cf9-c10bd9f90d2d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
